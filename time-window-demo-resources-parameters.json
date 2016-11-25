@@ -1,0 +1,9 @@
+{
+  "Parameters" : {
+    "CodeDeploySampleAppS3BucketName" : "<Amazon S3 bucket which contains AWS CodeDeploy sample application>",
+    "CodeDeploySampleAppS3ObjectKey" : "<S3 object key of sample application",
+    "KeyPairName" : "<Amazon EC2 key pair>",
+    "TimeWindowConfiguration":"{\"window\":{\"opens\" : \"9\",\"closes\" : \"17\"},\"blackDayDates\" : [\"2016-01-01\",\"2016-12-25\"]}",
+    "YourIP" : "IP address to connect to SSH from. Check http://checkip.amazonaws.com/ to find yours."
+  }
+}
